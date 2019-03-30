@@ -1,13 +1,13 @@
 package com.tp.options;
 
-public class GPS implements Option {
+public class Climatisation implements Option {
 
 	private double prix;
 	private NomOption nomOpt;
 	
-	public GPS() {
-		nomOpt = NomOption.GPS;
-		prix = 113.5;
+	public Climatisation() {
+		nomOpt = NomOption.CLIM;
+		prix = 347.3;
 	}
 	@Override
 	public double getPrix() {

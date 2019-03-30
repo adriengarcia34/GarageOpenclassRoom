@@ -3,7 +3,7 @@ package com.tp.moteur;
 public enum TypeMoteur {
 DIESEL ("Moteur DIESEL"),
 ESSENCE ("Moteur ESSENCE"),
-HYBRIDE ("Moteur HYBRIDE"),
+HYBRIDE ("Moteur HYBRIDE ESSENCE/Electrique"),
 ELECTRIQUE ("Moteur ELECTRIQUE");
 	
 	private String name = "";
